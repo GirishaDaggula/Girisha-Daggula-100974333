@@ -5,7 +5,7 @@ steps:
       [
         "build",
         "-t",
-        "us-central1-docker.pkg.dev/girisha-daggula-100974333/girisha100974333/app:$COMMIT_SHA",
+        "us-central1-docker.pkg.dev/daggula/girisha-100974333/app:$COMMIT_SHA",
         ".",
       ]
 
@@ -14,7 +14,7 @@ steps:
     args:
       [
         "push",
-        "us-central1-docker.pkg.dev/girisha-daggula-100974333/girisha100974333/app:$COMMIT_SHA",
+        "us-central1-docker.pkg.dev/daggula/girisha-100974333/app:$COMMIT_SHA",
       ]
 
   # Step 3: Deploy the image to Cloud Run
