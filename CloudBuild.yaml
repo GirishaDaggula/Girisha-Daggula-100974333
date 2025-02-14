@@ -6,7 +6,6 @@ steps:
         "build",
         "-t",
         "us-central1-docker.pkg.dev/girisha-daggula-100974333/girisha100974333/app:$COMMIT_SHA",
-        "./Backend",  # Point to the directory containing the Dockerfile
       ]
 
   # Step 2: Push the Docker image to Artifact Registry
