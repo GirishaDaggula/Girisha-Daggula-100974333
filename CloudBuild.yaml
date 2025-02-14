@@ -14,4 +14,6 @@ steps:
   - '--image=us-central1-docker.pkg.dev/girisha-daggula-100974333/girisha100974333/app:$COMMIT_SHA'
   - '--region=us-central1'
   - '--platform=managed'
+options:
+  logging: CLOUD_LOGGING_ONLY
 
