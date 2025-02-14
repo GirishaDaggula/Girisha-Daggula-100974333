@@ -1,10 +1,11 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'us-central1-docker.pkg.dev/Girisha-Daggula-100974333/Girisha100974333/app:v1.0', '.']
+    args: ['build', '-t', 'us-central1-docker.pkg.dev/girisha-daggula-100974333/girisha100974333/app:v1.0', '.']
 
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'us-central1-docker.pkg.dev/Girisha-Daggula-100974333/Girisha100974333/app:v1.0']
+    args: ['push', 'us-central1-docker.pkg.dev/girisha-daggula-100974333/girisha100974333/app:v1.0']
 
 options:
   logging: CLOUD_LOGGING_ONLY
+
 
