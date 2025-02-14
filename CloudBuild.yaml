@@ -32,7 +32,9 @@ steps:
         "managed",
         "--allow-unauthenticated",
         "--set-env-vars",
-        "PORT=8080",  
+        "PORT=8080",
+        "--timeout",  
+        "600", 
       ]
 
 options:
